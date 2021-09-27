@@ -6,5 +6,6 @@
     display:flex;
     flex: 1;
     background: #1f2937;
-    text: 48px extra-bold #f9faf8;
+    font-size: 48px;
+    color: #f9faf8;
 }
