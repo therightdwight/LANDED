@@ -1,4 +1,8 @@
-.header.one{
+/* this is the style sheet cuz */
+.header_one{
+    display:flex;
+}
+.header_one div {
     display:flex;
     flex: 1;
     background: #1f2937;
