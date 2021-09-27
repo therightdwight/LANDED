@@ -1,0 +1,6 @@
+.header.one{
+    display:flex;
+    flex: 1;
+    background: #1f2937;
+    text: 48px extra-bold #f9faf8;
+}
