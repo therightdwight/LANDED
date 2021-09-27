@@ -1,11 +1,23 @@
 /* this is the style sheet cuz */
 .header_one{
     display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
 }
 .header_one div {
     display:flex;
-    flex: 1;
-    background: #1f2937;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.upper_text {
     font-size: 48px;
-    color: #f9faf8;
+    color: #f9faf8; 
+    flex: 1; 
+    flex-direction: column;
+}
+.header_sub {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-direction: column;
+    flex: 1;
 }
