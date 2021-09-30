@@ -1,13 +1,36 @@
 /* this is the style sheet cuz */
+.top_header {
+    overflow: hidden;
+    background-color: #1f2937;
+    padding: 20px 10px;
+}
+.top_header a {
+    float: left;
+    color: #f9faf8;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.top_header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.top_header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.top_right {
+    float: right;
+}
 .header_one{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: left;
     background-color: #1f2937;
-}
-.header_one div {
-    display:flex;
-    flex: 1 1 auto;
-    flex-direction: column;
+    padding: 60px;
 }
 .upper_text {
     font-size: 48px;
@@ -18,7 +41,7 @@
 .header_sub {
     font-size: 18px;
     color: #e5e7eb;
-    flex-direction: column;
+    flex-direction: right;
     flex: 1;
 }
 .button{
@@ -30,4 +53,14 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+.button:hover {
+    background-color: #ddd;
+    color: black;
+}
+img {
+    display: flex;
+    float: right;
+    height: 200px;
+    width: 300px;
 }
