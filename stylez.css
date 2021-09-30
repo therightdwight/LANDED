@@ -27,10 +27,10 @@
 }
 .header_one{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
     background-color: #1f2937;
-    padding: 60px;
+    padding: 10px;
 }
 .upper_text {
     font-size: 48px;
@@ -41,15 +41,16 @@
 .header_sub {
     font-size: 18px;
     color: #e5e7eb;
-    flex-direction: right;
+    flex-direction: column;
     flex: 1;
 }
 .button{
     background-color: #3882f6;
     padding: 15px 32px;
+    height: 75px;
+    width: 100px;
     text-align: center;
     text-decoration: none;
-    display: flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -59,8 +60,18 @@
     color: black;
 }
 img {
-    display: flex;
+    height: 250px;
+    width: 350px;
+    margin: auto;
     float: right;
-    height: 200px;
-    width: 300px;
+}
+.section_two {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
 }
